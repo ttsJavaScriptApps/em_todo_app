@@ -1,0 +1,61 @@
+.todo-container {
+  width: 50%;
+  margin: auto;
+}
+
+.todo-container h1 {
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  font-size: 3em;
+}
+
+.todo-item-list {
+  list-style: none;
+}
+
+.todo-item-list li {
+  font-family: 'Courier New', Courier;
+}
+
+.add-item-container input {
+  display: block;
+  margin: auto;
+  padding: 4px;
+}
+
+.add-item-container input[placeholder] {
+  font-family: 'Courier New', Courier;
+  width: 300px;
+  text-align: center;
+}
+
+.add-item-container button {
+    display: block;
+    margin: auto;
+    padding: 8px 25px;
+    background: #fff;
+    border: 1px solid #000;
+    cursor: pointer;
+    margin-top: 10px;
+    font-family: 'Courier';
+}
+
+.add-item-container button:hover {
+  background: #000;
+  color: #fff;
+}
+
+.todo-item-list input[type='checkbox'] {
+  float: left;
+}
+
+.checked-item {
+  text-decoration: line-through;
+}
+
+
+@media (max-width: 700px) {
+  .todo-container { width: 95% }
+  .todo-container h1 { font-size: 31px; }
+  .add-item-container input[placeholder] { width: 200px; border: 1px solid #000;}
+}
